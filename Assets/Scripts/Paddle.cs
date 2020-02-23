@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class Paddle : MonoBehaviour
 {
-    [SerializeField] float screenWidthInUnits = 16f;
+    [SerializeField] float screenWidthInUnits = 36f;
     [SerializeField] float clampMin = 1f;
-    [SerializeField] float clampMax = 15f;
+    [SerializeField] float clampMax = 35f;
 
     float mousePosInUnits;
 
